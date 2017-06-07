@@ -14,7 +14,7 @@
  *= require_self
  */
 
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|News+Cycle');
 
 body {
 	background: url('bg.jpg');
@@ -22,15 +22,22 @@ body {
 	background-repeat: no-repeat;
 }
 
-.title {
-	margin: 150px 0 0 0;
+.listing {
+	font-size: 40px;
+	color: #680101;
+	font-family: helvetica;
+	font-family: 'News Cycle', sans-serif;
+}
+
+.link {
+	margin: 160px 0 0 0;
 	text-align: center;
 	font-size: 100px;
 	font-family: 'Dancing Script', cursive;
 	transition: 2s;
 }
 
-.title:hover {
+.link:hover {
 	font-size: 110px;
 	transition: 2s;
 }
@@ -40,10 +47,12 @@ a {
 	animation-name: flash;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    font-family: 'News Cycle', sans-serif;
 }
 
 a:link { 
 	text-decoration: none; 
+	font-family: 'News Cycle', sans-serif;
 }
 
 @keyframes flash {
@@ -53,4 +62,35 @@ a:link {
     to {
     	color: #58abd8;
     }
+}
+
+.wrapper {
+	text-align: center;
+}
+
+.addArticle {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 20px;
+}
+
+table {
+	width: 80%;
+	margin: 30px 10%;
+	height: 400px;
+	overflow: scroll;;
+	background-color: #FFFFFF;
+	opacity: .3;
+	border-radius: 10px;
+}
+
+th {
+	font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+	color: #bf0000;
+}
+
+td {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 20px;
+	color: black;
 }
