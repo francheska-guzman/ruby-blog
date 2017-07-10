@@ -1,5 +1,5 @@
-# Francheska Guzman
+# Ruby Blog
 
-## Getting Started with Rails
+Sources:
 
-http://guides.rubyonrails.org/getting_started.html
+[Getting Started with Rails, Tutorial](http://guides.rubyonrails.org/getting_started.html)
